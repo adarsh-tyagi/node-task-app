@@ -5,7 +5,7 @@ To run the app in system:
 ### Firstly, run the command: npm install 
    This will install the all reuquired packages.
 ### Then create a .env file ans store the following values as key value pairs
-   - PORT=3000
+   - PORT=<port on which server will run>
    - MONGO_URL=<mongodb atlas url>
    - SECRET_KEY=<secret key to be used in JWT>
    - SENDGRID_API_KEY=<sendgrid api key to be used while sending emails to the user>
